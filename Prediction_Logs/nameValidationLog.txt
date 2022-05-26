@@ -1,0 +1,19 @@
+2021-06-13/21:12:05		Valid File name!! File moved to GoodRaw Folder :: BackOrder_10052027_120218.csv
+2021-06-13/21:12:05		Invalid File Name!! File moved to Bad Raw Folder :: BackOrder_10052027_120218_dbX3XgY.csv
+2021-06-13/21:12:05		Valid File name!! File moved to GoodRaw Folder :: BackOrder_10052028_120219.csv
+2021-06-13/21:12:05		Invalid File Name!! File moved to Bad Raw Folder :: BackOrder_10052028_120219_k2Q7YJv.csv
+2021-06-13/21:12:05		Valid File name!! File moved to GoodRaw Folder :: BackOrder_10052029_120220.csv
+2021-06-13/21:12:05		Invalid File Name!! File moved to Bad Raw Folder :: BackOrder_10052029_120220_p6WeAai.csv
+2021-06-15/06:31:14		Valid File name!! File moved to GoodRaw Folder :: BackOrder_10052029_120220.csv
+2021-06-15/06:32:44		Valid File name!! File moved to GoodRaw Folder :: BackOrder_10052028_120219.csv
+2021-06-15/09:26:28		Valid File name!! File moved to GoodRaw Folder :: BackOrder_10052027_120218.csv
+2021-06-15/09:32:02		Valid File name!! File moved to GoodRaw Folder :: BackOrder_10052027_120218.csv
+2021-06-15/09:45:50		Valid File name!! File moved to GoodRaw Folder :: BackOrder_10052029_120220.csv
+2021-06-15/10:01:21		Valid File name!! File moved to GoodRaw Folder :: BackOrder_10052028_120219.csv
+2021-06-15/10:44:03		Valid File name!! File moved to GoodRaw Folder :: BackOrder_10052027_120218.csv
+2021-06-15/10:44:04		Valid File name!! File moved to GoodRaw Folder :: BackOrder_10052028_120219.csv
+2021-06-15/10:44:04		Valid File name!! File moved to GoodRaw Folder :: BackOrder_10052029_120220.csv
+2021-06-15/19:38:19		Valid File name!! File moved to GoodRaw Folder :: BackOrder_10052029_120220.csv
+2021-07-05/16:57:00		Valid File name!! File moved to GoodRaw Folder :: BackOrder_10052027_120218.csv
+2021-07-05/16:57:00		Valid File name!! File moved to GoodRaw Folder :: BackOrder_10052028_120219.csv
+2021-07-05/16:57:00		Valid File name!! File moved to GoodRaw Folder :: BackOrder_10052029_120220.csv
