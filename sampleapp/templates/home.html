@@ -1,0 +1,146 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Backorder Prediction</title>
+    <link href="{% static 'img/site_logo.png' %}" rel="icon">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+    
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="bgimg">
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top" >
+                <div class="container">
+                    <a href="" class="navbar-brand ">SCP</a>
+                    <button class="navbar-toggler " type="button" data-toggle="collapse"
+                    data-target="#collapsenavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse text-center" id="collapsenavbar">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a href="" class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#about" class="nav-link">Guidance</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#team" class="nav-link">Team</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div data-aos="fade-up" data-aos-delay="2000" >
+                <div class="container text-center text-white headerset">
+                    <h2>Hi There..!</h2>
+                    <h1>IT'S NICE TO MEET YOU</h1>
+                    <a href='{% url "admin:index" %}' target="_blank">
+                    <button class="btn btn-warning text-white btn-lg" >Admin Login</button></a><button class="btn btn-warning text-white btn-lg" onclick="location.href='{% url "login" %}'">Train/Predict</button>
+                </div>
+            </div>
+
+    </div>
+
+    <section id="about" class="container about text-center">
+        <div data-aos="fade-up" data-aos-delay="700" >
+        <h1>Group Guidance</h1>
+        <p>Know about our most skilled professors</p>
+
+        <div class="row rowsetting">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-10 d-block m-auto">
+                <div class="imgsetting d-block m-auto bg-warning">
+                    <i class="fa fa-user fa-3x text-white"></i>
+                </div>
+                <h4>Mr. CH.Naveen</h4>
+                <p>Assistant Professor</p>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-10 d-block m-auto">
+                <div class="imgsetting d-block m-auto bg-warning">
+                    <i class="fa fa-user fa-3x text-white"></i>
+                </div>
+                <h4>Dr. K.Nageswararao</h4>
+                <p>Head of the Department</p>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-10 d-block m-auto">
+                <div class="imgsetting d-block m-auto bg-warning">
+                    <i class="fa fa-user fa-3x text-white"></i>
+                </div>
+                <h4>Mr. K.Harideep</h4>
+                <p>APSSDC Trainer</p>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-10 d-block m-auto">
+                <div class="imgsetting d-block m-auto bg-warning">
+                    <i class="fa fa-user fa-3x text-white"></i>
+                </div>
+                <h4>Mr. P.Anil</h4>
+                <p>APSSDC Trainer</p>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section id="team" class="container team text-center">
+        <div data-aos="fade-up" data-aos-delay="700" >
+        <h1>Our Team</h1>
+        <p>Know about our team members</p>
+
+        <div class="row rowsetting">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-10 d-block m-auto">
+                <div class="imgsetting d-block m-auto bg-warning">
+                    <i class="fa fa-user fa-3x text-white"></i>
+                </div>
+                <h2>P. Lahari</h2>
+                <p>17AR1A0577</p>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-10 d-block m-auto">
+                <div class="imgsetting d-block m-auto bg-warning">
+                    <i class="fa fa-user fa-3x text-white"></i>
+                </div>
+                <h2>K. Anusha</h2>
+                <p>17AR1A0554</p>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-10 d-block m-auto">
+                <div class="imgsetting d-block m-auto bg-warning">
+                    <i class="fa fa-user fa-3x text-white"></i>
+                </div>
+                <h2>K. Sneha</h2>
+                <p>17AR1A0536</p>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-10 d-block m-auto">
+                <div class="imgsetting d-block m-auto bg-warning">
+                    <i class="fa fa-user fa-3x text-white"></i>
+                </div>
+                <h2>Y. Rushi Kumar</h2>
+                <p>17AR1A05B6</p>
+            </div>
+        </div>
+    </div>
+    </section>
+    <footer id="footer">
+        <div class="text-center">
+        <p>Contact us: laharipedineedi@gmail.com
+        </p>
+        <h5>Thank you for visiting</h5>
+    </div>
+  </footer>
+    <script>
+        AOS.init();
+      </script>
+</body>
+
+</html>
